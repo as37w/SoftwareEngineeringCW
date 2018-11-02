@@ -1,0 +1,24 @@
+c:\users\alex\source\repos\Software Engineering\Software Engineering\bin\Debug\Software Engineering.exe.config
+c:\users\alex\source\repos\Software Engineering\Software Engineering\bin\Debug\Software Engineering.exe
+c:\users\alex\source\repos\Software Engineering\Software Engineering\bin\Debug\Software Engineering.pdb
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csprojAssemblyReference.cache
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\MainWindow.g.cs
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\App.g.cs
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering_MarkupCompile.cache
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering_MarkupCompile.lref
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\MainWindow.baml
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.g.resources
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software_Engineering.Properties.Resources.resources
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.GenerateResource.cache
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.CoreCompileInputs.cache
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.exe
+c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.pdb
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Email.g.cs
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMS.g.cs
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweet.g.cs
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Email.baml
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMS.baml
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweet.baml
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Emailwindow.g.cs
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMSwindow.g.cs
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweetwindow.g.cs
