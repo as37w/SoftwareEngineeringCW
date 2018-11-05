@@ -8,11 +8,12 @@
         Title="SMSwindow" Height="450" Width="800">
     <Grid>
         <Label Content="SMS Message" HorizontalAlignment="Left" Margin="304,33,0,0" VerticalAlignment="Top" Height="34" Width="170" FontSize="18"/>
-        <Label HorizontalAlignment="Left" Margin="117,122,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Sender"/>
-        <Label Content="Message text" HorizontalAlignment="Left" Margin="117,217,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16"/>
-        <TextBox x:Name="sendernum" HorizontalAlignment="Left" Height="37" Margin="284,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
-        <TextBox x:Name="smsmsg" HorizontalAlignment="Left" Height="109" Margin="284,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="16"/>
-        <Button x:Name="smssubmit" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="304,354,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="smssubmit_Click"/>
+        <Label HorizontalAlignment="Left" Margin="21,113,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Sender"/>
+        <Label Content="Message text" HorizontalAlignment="Left" Margin="21,208,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16"/>
+        <TextBox x:Name="sendernum" HorizontalAlignment="Left" Height="37" Margin="188,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
+        <TextBox x:Name="smsmsg" HorizontalAlignment="Left" Height="109" Margin="188,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="16"/>
+        <Button x:Name="smssubmit" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="208,345,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="smssubmit_Click"/>
+        <ListBox x:Name="smslstbox" HorizontalAlignment="Left" Height="223" Margin="491,113,0,0" VerticalAlignment="Top" Width="291"/>
 
     </Grid>
 </Window>

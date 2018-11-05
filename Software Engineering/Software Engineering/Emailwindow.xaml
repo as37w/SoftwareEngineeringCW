@@ -7,15 +7,16 @@
         mc:Ignorable="d"
         Title="Emailwindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Email" HorizontalAlignment="Left" Margin="316,10,0,0" VerticalAlignment="Top" Height="34" Width="170" FontSize="18"/>
-        <Label HorizontalAlignment="Left" Margin="32,59,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Sender"/>
-        <Label Content="Message text" HorizontalAlignment="Left" Margin="32,169,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16"/>
-        <TextBox x:Name="senderemail" HorizontalAlignment="Left" Height="37" Margin="199,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
-        <TextBox x:Name="emailmsg" HorizontalAlignment="Left" Height="109" Margin="199,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="16"/>
-        <Button x:Name="emailsubmit" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="219,306,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="emailsubmit_Click"/>
-        <Label HorizontalAlignment="Left" Margin="32,114,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Subject"/>
-        <TextBox x:Name="subject" HorizontalAlignment="Left" Height="37" Margin="199,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
-        <ListBox x:Name="emaillstbox" HorizontalAlignment="Left" Height="219" Margin="519,59,0,0" VerticalAlignment="Top" Width="249"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="282,11,0,0" VerticalAlignment="Top" Height="34" Width="170" FontSize="18"/>
+        <Label HorizontalAlignment="Left" Margin="-2,60,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Sender"/>
+        <Label Content="Message text" HorizontalAlignment="Left" Margin="-2,170,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16"/>
+        <TextBox x:Name="senderemail" HorizontalAlignment="Left" Height="37" Margin="165,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
+        <TextBox x:Name="emailmsg" HorizontalAlignment="Left" Height="109" Margin="165,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="16"/>
+        <Button x:Name="emailsubmit" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="185,307,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="emailsubmit_Click"/>
+        <Label HorizontalAlignment="Left" Margin="-2,115,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Subject"/>
+        <TextBox x:Name="subject" HorizontalAlignment="Left" Height="37" Margin="165,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
+        <ListBox x:Name="emaillstbox" HorizontalAlignment="Left" Height="219" Margin="422,60,0,0" VerticalAlignment="Top" Width="249"/>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="102" Margin="422,296,0,0" VerticalAlignment="Top" Width="249"/>
 
     </Grid>
 </Window>

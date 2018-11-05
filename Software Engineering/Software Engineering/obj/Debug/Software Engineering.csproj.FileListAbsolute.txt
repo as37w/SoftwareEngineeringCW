@@ -13,12 +13,12 @@ c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\S
 c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.CoreCompileInputs.cache
 c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.exe
 c:\users\alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.pdb
-C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Email.g.cs
-C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMS.g.cs
-C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweet.g.cs
-C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Email.baml
-C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMS.baml
-C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweet.baml
 C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Emailwindow.g.cs
 C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMSwindow.g.cs
 C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweetwindow.g.cs
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\bin\Debug\Business.dll
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\bin\Debug\Business.pdb
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Emailwindow.baml
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMSwindow.baml
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweetwindow.baml
+C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.CopyComplete

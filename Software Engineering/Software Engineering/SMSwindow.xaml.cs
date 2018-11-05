@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Business;
+using System.IO;
 namespace Software_Engineering
 {
     /// <summary>
@@ -21,7 +22,7 @@ namespace Software_Engineering
     public partial class SMSwindow : Window
     {
         public List<String> phonenumbers = new List<string>();
-        
+
         public SMSwindow()
         {
             InitializeComponent();
@@ -29,12 +30,46 @@ namespace Software_Engineering
 
         private void smssubmit_Click(object sender, RoutedEventArgs e)
         {
-            string phonenum = sendernum.Text;
-            string smsmessage = smsmsg.Text;
-            if (Regex.Match(phonenum, @"^(?([0-9]{3}))?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$").Success)
+
+            SMS sms = new SMS();
+            sms.Sender = sendernum.Text;
+            sms.messageText = smsmsg.Text;
+
+            Methods lol = new Methods();
+            List<string> abbreviations = lol.loadCsvFile(@"C:\Users\Alex\source\repos\Software Engineering\textwords.csv");
+            List<string> input = new List<string>(sms.messageText.Split(null));
+           
+            if (Regex.Match(sms.Sender, @"^(?([0-9]{3}))?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$").Success)
             {
-                phonenumbers.Add(phonenum);
+                sms.Sender = sms.Sender;
             }
+            else
+            {
+                MessageBox.Show("Invalid Phone Number, Invalid");
+            }
+
+            
+            
+            int counter = input.Count;
+
+           
+
+            for (int i = 0; i < sms.messageText.Length; i++)
+            {
+
+                if (counter == i)
+                {
+                    break;
+                }
+
+                
+
+            }
+
+            smslstbox.Items.Add(input);
+
+
         }
     }
+
 }

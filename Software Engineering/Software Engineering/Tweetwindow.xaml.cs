@@ -26,8 +26,11 @@ namespace Software_Engineering
 
         private void tweetsubmit_Click(object sender, RoutedEventArgs e)
         {
-            string username = tweetsender.Text;
-            string tweet = tweetmsg.Text;
+            Tweet tweet = new Tweet();
+            tweet.twitterId = tweetsender.Text;
+            
         }
+
+
     }
 }

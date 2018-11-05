@@ -9,7 +9,6 @@ namespace Business
     public class Tweet
     {
         private string message_header;
-        private string sender;
         private string twitter_id;
 
         public string messsageHeader
@@ -18,12 +17,7 @@ namespace Business
             set { message_header = value; }
         }
 
-        public string Sender
-        {
-            get { return sender; }
-            set { sender = value; }
-        }
-
+      
         public string twitterId
         {
             get { return twitter_id; }
