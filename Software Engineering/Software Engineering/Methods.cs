@@ -76,6 +76,8 @@ namespace Software_Engineering
             return mentionList;
         }
 
+        
+
         //Method to return the observable collection trendingList
         public static ObservableCollection<string> gettrending()
         {

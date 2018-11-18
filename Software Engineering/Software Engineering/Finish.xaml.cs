@@ -23,7 +23,7 @@ namespace Software_Engineering
         {
             InitializeComponent();
             mentiongrid.ItemsSource = Methods.getmentions();
-            trendinglst.ItemsSource = Methods.gettrending();
+            trendinglist.ItemsSource = Methods.gettrending();
             SIRgrid.ItemsSource = Methods.getsir();
         }
     }

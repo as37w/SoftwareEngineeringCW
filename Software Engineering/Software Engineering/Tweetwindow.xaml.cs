@@ -34,6 +34,7 @@ namespace Software_Engineering
 
         private void tweetsubmit_Click(object sender, RoutedEventArgs e)
         {
+            trending trend = new trending();
             //Creates a new instance of the tweet class.
             Tweet tweet = new Tweet();
             tweet.messageHeader= ((MainWindow)Application.Current.MainWindow).tweetid.messageHeader;
@@ -52,7 +53,6 @@ namespace Software_Engineering
             List<string> input = new List<string>(tweet.messageText.Split(null));
             //creates a new list contating all the values of the obesrvable collection hashList.
             List<hashtag> hashlist = Methods.hashtagList.ToList<hashtag>();
-
             hashtag hash_tag = new hashtag();
             mentions mention = new mentions();
             int counter1 = input.Count;
@@ -105,9 +105,9 @@ namespace Software_Engineering
 
             
             List<string> strings = hashlist.Select(c => c.hashTags).ToList();
-
             //creates a new dictionary called trending of type string, int.
             Dictionary<string, int> trending = new Dictionary<string, int>();
+
 
             //this method calculates the trending list by checking if the trending list contains the hashtag, if not it will be added with the count of 1, if not it will add 1 to the count of the hashtag.
             foreach (string hashtag in strings)
@@ -129,9 +129,12 @@ namespace Software_Engineering
             {
                 tweetlstbox.Items.Add(entry.Key + "  " + entry.Value);
                 //adds the current hashtags and there values to the list trendingList.
-                Methods.trendingList.Add(entry.Key + entry.Value);
+                Methods.trendingList.Add(entry.Key + "  " + entry.Value);
 
             }
+
+            
+
 
             //creates a new instance of the tweet class.
             Tweet serealise = new Tweet();
@@ -149,7 +152,7 @@ namespace Software_Engineering
 
             //adds the object hash_tag to the observable collection hashList using the addHash method.
             Methods.addHash(hash_tag);
-            tweetgrid.ItemsSource = Methods.gethash();
+            
             
         }
 
