@@ -22,3 +22,31 @@ C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\E
 C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\SMSwindow.baml
 C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Tweetwindow.baml
 C:\Users\Alex\source\repos\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.CopyComplete
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\bin\Debug\Software Engineering.exe.config
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\bin\Debug\Software Engineering.exe
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\bin\Debug\Software Engineering.pdb
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\bin\Debug\Business.dll
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\bin\Debug\Business.pdb
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Emailwindow.g.cs
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\SMSwindow.g.cs
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Tweetwindow.g.cs
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\App.g.cs
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering_MarkupCompile.cache
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering_MarkupCompile.lref
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Emailwindow.baml
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\MainWindow.baml
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\SMSwindow.baml
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Tweetwindow.baml
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering.g.resources
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software_Engineering.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering.csproj.CopyComplete
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering.exe
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Software Engineering.pdb
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Finish.g.cs
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\obj\Debug\Finish.baml
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Software Engineering\bin\Debug\Newtonsoft.Json.xml

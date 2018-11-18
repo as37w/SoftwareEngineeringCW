@@ -11,12 +11,14 @@ namespace Business
         private string sort_code;
         private string incident_name;
 
+        //Getter/setter for sortCode
         public string sortCode
         {
             get { return sort_code; }
             set { sort_code = value; }
         }
 
+        //Getter/setter for incident name
         public string incidentName
         {
             get { return incident_name; }

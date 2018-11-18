@@ -14,6 +14,8 @@
         <TextBox x:Name="smsmsg" HorizontalAlignment="Left" Height="109" Margin="188,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="16"/>
         <Button x:Name="smssubmit" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="208,345,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="smssubmit_Click"/>
         <ListBox x:Name="smslstbox" HorizontalAlignment="Left" Height="223" Margin="491,113,0,0" VerticalAlignment="Top" Width="291"/>
+        <Button x:Name="Finish" Content="Finish" HorizontalAlignment="Left" Height="43" Margin="635,376,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="Finish_Click"/>
+        <Button x:Name="back" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="0,376,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="back_Click"/>
 
     </Grid>
 </Window>

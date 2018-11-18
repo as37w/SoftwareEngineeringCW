@@ -4,3 +4,9 @@ C:\Users\Alex\source\repos\Software Engineering\Business\bin\Debug\Business.dll
 C:\Users\Alex\source\repos\Software Engineering\Business\bin\Debug\Business.pdb
 C:\Users\Alex\source\repos\Software Engineering\Business\obj\Debug\Business.dll
 C:\Users\Alex\source\repos\Software Engineering\Business\obj\Debug\Business.pdb
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Business\bin\Debug\Business.dll
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Business\bin\Debug\Business.pdb
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Business\obj\Debug\Business.dll
+C:\Users\Alex\Documents\GitHub\SoftwareEngineeringCW\Software Engineering\Business\obj\Debug\Business.pdb

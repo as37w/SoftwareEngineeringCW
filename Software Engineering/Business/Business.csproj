@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Email.cs" />
+    <Compile Include="hashtag.cs" />
+    <Compile Include="mentions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SIR.cs" />
     <Compile Include="SMS.cs" />

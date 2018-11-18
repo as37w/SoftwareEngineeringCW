@@ -26,7 +26,10 @@ namespace Software_Engineering
         {
             InitializeComponent();
         }
-
+        //Initialise new instances of classes
+        public Tweet tweetid = new Tweet();
+        public Email emailid = new Email();
+        public SMS smsid = new SMS();
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
@@ -35,37 +38,34 @@ namespace Software_Engineering
         private void Button_Click(object sender, RoutedEventArgs e)
         { 
             string messageid = msgid.Text;
-            string messagetype;
-            
-
-            
-
+          
+            //Case statement to determine which type of message is being entered and which window to load depending on which type is entered.
             switch (messageid[0])
             {
                 case 'E':
                     {
-                        messagetype = "Email";
+                        emailid.messageHeader = msgid.Text;
                         Emailwindow win2 = new Emailwindow();
                         win2.Show();
-                        this.Close();
+                        this.Hide();
                         break;
                     }
 
                 case 'S':
                     {
-                        messagetype = "SMS";
+                        smsid.messageHeader=msgid.Text;
                         SMSwindow win2 = new SMSwindow();
                         win2.Show();
-                        this.Close();
+                        this.Hide();
                         break;
                     }
 
                 case 'T':
                     {
-                        messagetype = "Tweet";
+                        tweetid.messageHeader =msgid.Text;
                         Tweetwindow win2 = new Tweetwindow();
                         win2.Show();
-                        this.Close();
+                        this.Hide();
                         break;
                     }
             }

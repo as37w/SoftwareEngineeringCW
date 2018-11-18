@@ -1,0 +1,19 @@
+﻿<Window x:Class="Software_Engineering.Finish"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Software_Engineering"
+        mc:Ignorable="d"
+        Title="Finish" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="mentiongrid" HorizontalAlignment="Left" Height="250" Margin="33,87,0,0" VerticalAlignment="Top" Width="200"/>
+        <DataGrid x:Name="SIRgrid" HorizontalAlignment="Left" Height="250" Margin="560,87,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Mention List" HorizontalAlignment="Left" Margin="76,53,0,0" VerticalAlignment="Top" Width="100" FontSize="14"/>
+        <Label HorizontalAlignment="Left" Margin="354,53,0,0" VerticalAlignment="Top" Width="100" FontSize="14"/>
+        <Label Content="SIR List" HorizontalAlignment="Left" Margin="619,53,0,0" VerticalAlignment="Top" Width="100" FontSize="14"/>
+        <Label Content="Trending List" HorizontalAlignment="Left" Margin="354,53,0,0" VerticalAlignment="Top" Width="100" FontSize="14"/>
+        <ListBox x:Name="trendinglst" HorizontalAlignment="Left" Height="250" Margin="296,87,0,0" VerticalAlignment="Top" Width="194"/>
+
+    </Grid>
+</Window>

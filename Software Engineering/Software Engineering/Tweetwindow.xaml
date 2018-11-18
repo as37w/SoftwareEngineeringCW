@@ -8,10 +8,15 @@
         Title="Tweetwindow" Height="450" Width="800">
     <Grid>
         <Label Content="Tweet" HorizontalAlignment="Left" Margin="362,16,0,0" VerticalAlignment="Top" Height="34" Width="170" FontSize="18"/>
-        <Label HorizontalAlignment="Left" Margin="175,105,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Sender"/>
-        <Label Content="Message text" HorizontalAlignment="Left" Margin="175,200,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16"/>
-        <TextBox x:Name="tweetsender" HorizontalAlignment="Left" Height="37" Margin="342,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
-        <TextBox x:Name="tweetmsg" HorizontalAlignment="Left" Height="109" Margin="342,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="16"/>
-        <Button x:Name="tweetsubmit" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="362,337,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="tweetsubmit_Click"/>
+        <Label HorizontalAlignment="Left" Margin="11,90,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16" Content="Sender"/>
+        <Label Content="Message text" HorizontalAlignment="Left" Margin="11,185,0,0" VerticalAlignment="Top" Height="30" Width="131" FontSize="16"/>
+        <TextBox x:Name="tweetsender" HorizontalAlignment="Left" Height="37" Margin="178,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
+        <TextBox x:Name="tweetmsg" HorizontalAlignment="Left" Height="109" Margin="178,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="16"/>
+        <Button x:Name="tweetsubmit" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="198,322,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="tweetsubmit_Click"/>
+        <DataGrid x:Name="tweetgrid" HorizontalAlignment="Left" Height="94" Margin="513,90,0,0" VerticalAlignment="Top" Width="259"/>
+        <ListBox x:Name="tweetlstbox" HorizontalAlignment="Left" Height="117" Margin="513,231,0,0" VerticalAlignment="Top" Width="259"/>
+        <Button x:Name="tweetsubmit_Copy" Content="Submit" HorizontalAlignment="Left" Height="43" Margin="198,322,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="tweetsubmit_Click"/>
+        <Button x:Name="Finish" Content="Finish" HorizontalAlignment="Left" Height="43" Margin="635,366,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="Finish_Click"/>
+        <Button x:Name="Finish_Copy" Content="Back" HorizontalAlignment="Left" Height="43" Margin="0,366,0,0" VerticalAlignment="Top" Width="147" FontSize="16" Click="Finish_Copy_Click"/>
     </Grid>
 </Window>
