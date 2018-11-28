@@ -49,19 +49,19 @@ namespace Software_Engineering
             List<string> split = abrev.Split(',').ToList();
             //creates a list input which contatins the sms message text split by null
             List<string> input = new List<string>(sms.messageText.Split(null));
-            
+
             //Checks that the phonenumber is valid
-            if (Regex.Match(sms.Sender, @"^(?([0-9]{3}))?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$").Success)
+
+            bool IsValidPhoneNumber(string number)
             {
-                sms.Sender = sms.Sender;
-            }
-            else
-            {
-                MessageBox.Show("Invalid Phone Number, Invalid");
+                return Regex.Match(number, @"^(?([0-9]{3}))?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$").Success;
             }
 
-            
-            
+            if(IsValidPhoneNumber(sms.Sender) == false);
+            {
+                MessageBox.Show("Please enter a valid phone number");
+            }
+
             int counter1 = input.Count;
             int counter2 = split.Count;
 

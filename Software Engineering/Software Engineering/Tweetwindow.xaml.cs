@@ -34,7 +34,7 @@ namespace Software_Engineering
 
         private void tweetsubmit_Click(object sender, RoutedEventArgs e)
         {
-            trending trend = new trending();
+          
             //Creates a new instance of the tweet class.
             Tweet tweet = new Tweet();
             tweet.messageHeader= ((MainWindow)Application.Current.MainWindow).tweetid.messageHeader;
@@ -60,6 +60,13 @@ namespace Software_Engineering
 
             tweetlstbox.Items.Clear();
             Methods.trendingList.Clear();
+
+            if (tweet.twitterId.Length > 16)
+              
+            {
+                    MessageBox.Show("Invalid Twitter id please enter an id thats 16 characters or less, Invalid");
+                
+            }
             for (int i = 0; i < tweet.messageText.Length; i++)
             {
 

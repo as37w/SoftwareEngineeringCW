@@ -47,7 +47,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SIR.cs" />
     <Compile Include="SMS.cs" />
-    <Compile Include="trending.cs" />
     <Compile Include="Tweet.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

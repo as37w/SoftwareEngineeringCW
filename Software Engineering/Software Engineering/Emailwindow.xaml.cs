@@ -82,7 +82,7 @@ namespace Software_Engineering
                 //Checks if the email is a significant incident report and that it contains the date of the incident within the email subject
                 try
                 {
-                    if (inputsubject.Contains("Sir"))
+                    if (inputsubject.Contains("SIR"))
                     {
                         DateTime.Parse(inputsubject[1]);
                         hasdate = true;
